@@ -3,7 +3,7 @@ import { ponder } from "@/generated";
 ponder.on("HappyRedPacket:ClaimSuccess", async ({ event, context }) => {
   const { Example } = context.db;
   await Example.create({
-    id: event.block.timestamp.toString() + "-" + event.log.logIndex.toString(),
+    id: event.block.timestamp.toString(),
     data: {
       name: event.args.claimer,
     },
