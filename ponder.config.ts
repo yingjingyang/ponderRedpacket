@@ -5,7 +5,7 @@ import { HappyRedPacketAbi } from "./abis/HappyRedPacketAbi";
 
 export default createConfig({
   networks: {
-    optimism: { chainId: 10, transport: http("opt-mainnet.g.alchemy.com/v2/L6amojJsXjRv4hPv_VEo7lCORzMpPmF-") },
+    optimism: { chainId: 10, transport: http("https://opt-mainnet.g.alchemy.com/v2/L6amojJsXjRv4hPv_VEo7lCORzMpPmF-") },
   },
   contracts: {
     HappyRedPacket: {
