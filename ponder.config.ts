@@ -5,7 +5,7 @@ import { HappyRedPacketAbi } from "./abis/HappyRedPacketAbi";
 
 export default createConfig({
   networks: {
-    optimism: { chainId: 10, transport: http(process.env.PONDER_RPC_URL_10) },
+    optimism: { chainId: 10, transport: http(process.env.PONDER_RPC_URL) },
   },
   contracts: {
     HappyRedPacket: {
