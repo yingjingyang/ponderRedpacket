@@ -13,7 +13,7 @@ export default createConfig({
       address: "0x62E8cf62Dc0B7d7afF9A1A58CeA14976fDB16a85",
       network: "optimism",
       startBlock: 115319399,
-      endBlock: 115552282,
+      endBlock: 115555497,
     },
   },
 });
